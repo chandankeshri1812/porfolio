@@ -1,0 +1,8 @@
+.nav_link{
+    color: rgb(180, 170, 170);
+    font-family: var( --fontfamily2);
+}
+.nav_link:hover{
+    color: rgb(255, 255, 255);
+}
+

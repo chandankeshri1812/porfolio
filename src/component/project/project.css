@@ -1,0 +1,35 @@
+.project{
+/* background: chocolate; */
+/* border: 2px solid red; */
+padding: 1rem;
+}
+
+.project h1{
+text-align: center;
+color: rgb(20, 19, 19);
+}
+.project-row{
+display: flex;
+justify-content: space-between;
+/* align-items: center; */
+flex-wrap: wrap;
+padding: 1rem 0;
+/* border: 2px solid red; */
+width: 100%;
+
+}
+.card-proj{
+    margin: 14px ;
+}
+
+
+@media screen and (max-width: 635px)  {
+    .project-row{
+        flex-direction: column;
+        /* padding: 2px; */
+        }
+.card-proj{
+    margin: 14px ;
+}
+       
+}

@@ -1,0 +1,51 @@
+.login{
+    /* border: 2px solid red; */
+    margin: 4rem;
+}
+.login-container{
+    width: 90vw; 
+    margin: auto;
+}
+.form-login-submit-btn{
+    margin: 12px 0;
+}
+.login-image-link{
+
+}
+.login-image {
+/* width: 80%; */
+}
+.login-form{
+   
+    width: 100%;
+    padding-right: 22px;
+}
+
+
+@media screen and (max-width: 1200px)  {
+    .login{
+        margin: 0rem;
+    }
+    .login-container{
+        width: 100vw; 
+        margin: auto;
+    }
+    .login-content{
+flex-direction: column;
+    }
+    .login-image {
+        width: 98%;
+    }
+    .login-form{
+   
+        width: 100%;
+        padding: 7px;
+    }
+    .login-image-link{
+    font-size: 13px;
+    }
+    .login-title{
+        font-size: 18px;
+    }
+        
+}

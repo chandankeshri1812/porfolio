@@ -1,0 +1,200 @@
+.main{
+    width: 100%;
+    background-color: rgb(202, 202, 202);
+    padding: 43px 0px 18px 0px;
+}
+
+.main-logo{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 12px 0;
+
+}
+.mainlogo{
+width: 90px;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container .text{
+    color: rgb(110, 3, 3);
+    font-size: 60px; ;
+    font-weight: 400;
+    font-family:'Roboto', sans-serif ;
+}
+
+.main-container .option{
+    /* margin-left: 15px; */
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+    padding-left: -2rem !important;
+
+}
+.option li{
+    list-style: none;
+    color: #22201b;
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+    font-family: 'Rubik', sans-serif;
+}
+/* section */
+.section-2main{
+    max-width: 80vw;
+    margin: auto;
+    /* height: 20vh; */
+    /* border: 2px solid rgb(23, 20, 211); */
+}
+.section-2-about{
+margin: 12px;
+
+}
+.about-2-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.about-2-row{
+    flex: 20%;
+    /* border: 2px solid red; */
+    margin: 2px 14px ;
+    padding: 14px 27px
+}
+.icon-about{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.icon-about i{
+    font-size: 95px;
+    color: #007185;
+}
+.about-2-row p{
+    font-size: 20px;
+    text-align: center;
+    font-family:'Roboto', sans-serif ;
+}
+/* *********** */
+
+
+@keyframes slide{
+    100%{
+        top: -360px;
+
+    }
+
+}
+.option li span{
+    position: relative;
+    margin: 5px 0;
+    line-height: 90px;
+
+}
+
+.option li span:after{
+    content: ' ';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(202, 202, 202);
+    border-left: 2px solid #000000;
+   animation: typing 3s steps(10) infinite;
+
+}
+
+@keyframes typing{
+    40%,60%{
+        left: calc(100% + 30px);
+
+    }
+    100%{
+        left: 0;
+    }
+}
+.main-description{
+    font-size: 20px;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 800;
+}
+.main-description p{
+    padding: 10px 15rem;
+
+}
+.main-button{
+display: flex;
+justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 635px)  {
+    .main-container .text{
+        font-size: 30px; ;
+    }
+
+    .main-container .option{
+        /* margin-left: 15px; */
+        height: 45px;
+        line-height: 45px;
+        /* border: 2px solid red; */
+        margin: 0px -24px;
+    }
+
+    .option li{
+        font-size: 28px;
+        height: 90px;
+    }
+    .option li span{
+      
+        margin: 5px 0;
+        line-height: 45px;
+    
+    }
+    .main-description p{
+        font-size: 16px;
+        padding:8px 12px;
+    }
+    .main-button{
+flex-direction: column;
+margin: 0 10px;
+/* align-items: center; */
+    }
+
+
+
+/* setvion 01 */
+    .about-2-container{
+      flex-direction: column;
+      /* flex: 50%; */
+    }
+    .about-2-row{
+margin: 0px 0px;
+    }
+}
