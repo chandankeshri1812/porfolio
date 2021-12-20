@@ -80,6 +80,20 @@ function Skills() {
                             <p>C</p>
                         </div>
 
+                        <div className="skill-2-row">
+                            <div className="icon-skill">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <p>C++</p>
+                        </div>
+
+                        <div className="skill-2-row">
+                            <div className="icon-skill">
+                            <i class="fab fa-java"></i>
+                            </div>
+                            <p>JAVA</p>
+                        </div>
+
                     </div>
                 </div>
             </section>

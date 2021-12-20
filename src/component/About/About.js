@@ -14,6 +14,10 @@ import investor from "../../images/investor.jpg"
 
 import "./about.css"
 const About = () => {
+
+
+
+
     return (
         <>
 
@@ -30,7 +34,9 @@ const About = () => {
                             <h5>Web Developer</h5>
                             <p>I am a 2nd-year undergraduate pursuing IMSc in Mathematics and Computing at Birla Institute of Technology, Ranchi. Since my 2nd year in college.I have been exploring and Learning Mern Stack Web Development and Graphic Designing.</p>
                             <button className='btn'>Read More</button>
-                            <button className='btn'>Open CV</button>
+                            <a target="_blank" href="https://drive.google.com/file/d/1l3xp6Ss_f0jOohVNElpmwoSR8kxWaAUB/view?usp=sharing" >
+                                <button className='btn' >Open CV</button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -96,7 +102,7 @@ const About = () => {
 
             {/* section-04 */}
 
-            <section>
+            {/* <section>
                 <div className="section-about-4">
                     <div className="section-4-about-container">
                         <h1 className='section-4-heading'>INTEREST</h1>
@@ -119,11 +125,43 @@ const About = () => {
                                 {/* <div className="about-04-image">
                                     <img src={investor} alt="" />
                                 </div> */}
-                            </div>
+            {/* </div>
 
-                          
+
 
                         </div>
+                    </div>
+                </div>
+            // </section> */}
+
+
+
+            {/* section 5 */}
+            <section>
+                <div className="about-sect-05">
+                    <div className="about-container-sec-05">
+                        <h1>Accomplishments</h1>
+
+                        <div className="about-section-05-row">
+
+                            <div className="about-05-col">
+                                <div className="box-about-05-achiv">
+                                    <h4>Patriart, a painting Competition</h4>
+                                    <h5>2nd Position</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, atque odio.</p>
+                                </div>
+                            </div>
+
+                            <div className="about-05-col">
+                                <div className="box-about-05-achiv">
+                                    <h4>Answer Machine Of The Year</h4>
+                                    <h5>At Class 10th</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, atque odio.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
                     </div>
                 </div>
             </section>

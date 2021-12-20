@@ -45,6 +45,11 @@ width: 90px;
     animation: slide 12s steps(4) infinite;
     font-family: 'Rubik', sans-serif;
 }
+.main-button button {
+    margin:0 4px;
+}
+
+
 /* section */
 .section-2main{
     max-width: 80vw;
